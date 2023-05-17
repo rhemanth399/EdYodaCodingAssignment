@@ -1,0 +1,181 @@
+
+
+
+.landingpage{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: black;
+    width:98.8vw;
+    height: 150vh;
+    padding: 0;
+    margin:0;
+    font-family: Roboto;
+    color:#FFFFFF;
+}
+.headingmain{
+    display: flex;
+    flex-direction: column;
+
+}
+.heading{
+font-family: raleway;
+font-style: semibold;
+font-size: 56px;
+line-height: 70px;
+line-height: 125%;
+text-align: left;
+vertical-align: center;
+letter-spacing: -1%;
+margin-top:3rem;
+}
+span{
+    
+    
+    color: #0048FF;
+
+}
+.offeringdetails{
+    display: flex;
+    align-items: center;
+    
+    flex-direction: row;
+    gap:2.5rem;
+    margin-top:2rem;
+}
+.offeringdetails p{
+    font-family: 'roboto';
+    font-style: Mixed;
+    font-size:32px;
+    line-height: 32px;
+    line-height: 100%;
+    
+    text-align: left;
+    vertical-align: center;
+    letter-spacing: 3%;
+}
+.fee{
+    background-color: white;
+    width:25vw;
+    height:130vh;
+    margin:4rem 0rem;
+}
+
+.signupsubscribe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:2rem;
+
+}
+.ns{
+    display: flex;
+    flex-direction: column;
+    
+}
+.ns span{
+    color:black !important;
+    font-family: 'Roboto';
+}
+
+.number{
+    font-family: 'roboto';
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #0048FF;
+    padding:2px 3px 3px 8px;
+    align-items: center;
+}
+.plan{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border:2px solid #BEBEBE;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding:10px;
+    font-family: 'roboto';
+    border-radius: 5px;
+}
+.plangreen{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border:3px solid #47BA68;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding:10px;
+    font-family: 'roboto';
+    border-radius: 5px;
+}
+
+.plandetail{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+}
+
+.discountfee{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:black;
+    margin:0.5rem 2rem 0.3rem 2rem;
+}
+.limitedoffer{
+    /* background: linear-gradient(to right,#F39547 82.52%,
+    #F8A954 91.41%,
+    #FEC163 100%); */
+    background-image: linear-gradient(to right, #e58f8f , #f2a384);
+    border:2px solid  #FF0000;
+    margin:0.99rem;
+    padding:4px 2px 4px 4px;
+    border-radius: 5px;
+
+}
+.limitedheading {
+    display: flex;
+    justify-content: space-between;
+    margin:0.3rem;
+
+}
+.offervalidity{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+}
+
+.gst{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:0.2rem 2rem 0rem 1.4rem;
+    
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top:5px;
+}
+
+@media screen and (max-width:620px){
+    .fee{
+        width:100vw;
+        height:auto;
+    }
+    .landingpage{
+        width:100vw;
+        height:auto;
+    }
+}
+
+
+
+

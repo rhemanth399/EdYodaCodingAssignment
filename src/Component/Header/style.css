@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #ffffff;
+    font-family: 'Raleway';
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:1rem 0rem;
+    position:sticky;
+    top:0;
+    left:0;
+    z-index:1;
+    
+}
+@media screen and (max-width:840px)
+{
+    .header{
+    flex-wrap: wrap;
+    flex-direction: row;
+    }
+}
+.coursesprograms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    
+}
+.coursesprograms p{
+    margin-left: 0.1rem;
+    font-weight: 500;
+    font-size: 16px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 5px;
+}
+.search input{
+    width: 300px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    height:2rem;
+    
+}
+.loginjoinnow{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:2rem;
+    cursor: pointer;
+}
+.loginjoinnow a{
+    text-decoration: none;
+    color:black;
+}
+.loginjoinnow button{
+    border:none;
+    background: linear-gradient(90.72deg, #0096FF 42.18%, #0048FF 93.77%);
+    color:white;
+    padding:0.7rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+    
+    
